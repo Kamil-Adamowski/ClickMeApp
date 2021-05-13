@@ -97,7 +97,7 @@ const Game = () => {
       />
       <Button
         onClick={() => {
-          setValue({ ...value, clickCount: value.clickCount + 10 });
+          setValue({ ...value, clickCount: value.clickCount + 1 });
           playClick();
         }}
         title='CLICK ME'
