@@ -105,6 +105,7 @@ const Game = () => {
       />
       <Button
         onClick={() => {
+          // eslint-disable-next-line
           if (window.confirm('Are you sure you wish to delete your stats?'));
           ResetData(
             setValue({
