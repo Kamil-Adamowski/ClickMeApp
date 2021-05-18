@@ -30,6 +30,8 @@
         "linebreak-style": 0,
         "react/jsx-one-expression-per-line": "off",
         "no-unused-expressions": "off",
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "no-else-return": "off",
+        "arrow-parens": "off"
     }
 }

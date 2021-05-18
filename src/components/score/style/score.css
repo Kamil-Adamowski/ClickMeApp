@@ -1,27 +1,27 @@
-.score-container {
+.score--container {
   width: 18rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.score-container-top {
+.score--container__top {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between
 }
 
-.score-container-text {
+.score--container__text {
   color: rgba(250,250,250, .8);
   font-size: 1.4rem;
 }
 
 @media only screen and (max-width: 300px) {
-  .score-container {
+  .score--container {
     width: 14rem;
     height: 8rem;
   }
-  .score-container-text {
+  .score--container__text {
     font-size: 1.1rem;
   }
 }

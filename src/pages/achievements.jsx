@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../components/navbar/navbar';
+import AchievementContainer from '../app/achivements/achivements';
 
 const Achievements = () => (
   <>
     <Navbar />
-    <h1>Dostępne wkrótce :)</h1>
+    <AchievementContainer />
   </>
 );
-
 export default Achievements;

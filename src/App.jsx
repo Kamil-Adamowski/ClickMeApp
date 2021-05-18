@@ -12,18 +12,10 @@ import Shop from './pages/shop';
 const App = () => (
   <Router>
     <Switch>
-      <Route path='/achievements'>
-        <Achievements />
-      </Route>
-      <Route path='/shop'>
-        <Shop />
-      </Route>
-      <Route path='/home'>
-        <Home />
-      </Route>
-      <Route>
-        <Redirect to='/home' />
-      </Route>
+      <Route path='/achievements' component={Achievements} />
+      <Route path='/shop' component={Shop} />
+      <Route path='/home' exact component={Home} />
+      <Route><Redirect to='/home' /></Route>
     </Switch>
   </Router>
 );
